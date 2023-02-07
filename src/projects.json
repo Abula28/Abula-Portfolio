@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Space Tourism Website",
+        "href": "https://abula28.github.io/Space-Tourism-Website/",
+        "img": "src/components/icons/space-tourism-website-img.png"
+    },
+    {
+        "title": "Shopcart Ecommerce Site",
+        "href": "https://abula-vue-ecommerce.netlify.app/",
+        "img": "src/components/icons/ecommerce-site.png"
+    },
+    {
+        "title": "Fylo Landing page",
+        "href": "https://abula28.github.io/Fylo-Landing-Page/",
+        "img": "src/components/icons/fylo-landing-page-img.png"
+    },
+    {
+        "title": "Todo App",
+        "href": "https://abula28.github.io/Todo-App/",
+        "img": "src/components/icons/todo-list-img.png"
+    },
+    {
+        "title": "Advice Generator",
+        "href": "https://abula28.github.io/Advice-Generator/",
+        "img": "src/components/icons/advice-generator-img.png"
+    },
+    {
+        "title": "Rock Paper Scissors",
+        "href": "https://abula28.github.io/Rock-Paper-Scissors/",
+        "img": "src/components/icons/rock-paper-scissors.png"
+    },
+    {
+        "title": "Click Game",
+        "href": "https://abula28.github.io/Click-Game/",
+        "img": "src/components/icons/click-game.png"
+    }
+    
+]

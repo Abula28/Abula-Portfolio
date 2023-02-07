@@ -9,80 +9,12 @@
       </div>
 
       <div class="projects">
-        <div 
-        v-motion
-        :initial="{opacity: 0, y: -100}"
-        :visible="{opacity: 1, y: 0}"
-        :delay="100"
-        class="proj">
-          <h1>Space Tourism Website</h1>
-          <a
-            href="https://abula28.github.io/Space-Tourism-Website/"
-            target="_blank"
-          >
-            <div class="projects-img">
-              <img
-                src="./icons/space-tourism-website-img.png"
-                alt="space website"
-              />
-              <div class="layer">
-                <h3>View</h3>
-              </div>
-            </div>
-          </a>
-        </div>
+        <!-- 
 
-        <div v-motion
-        :initial="{opacity: 0, y: 100}"
-        :visible="{opacity: 1, y: 0}"
-        :delay="300" class="proj">
-          <h1>Fylo Landing page</h1>
-          <a
-            href="https://abula28.github.io/Fylo-Landing-Page/"
-            target="_blank"
-          >
-            <div class="projects-img">
-              <img
-                src="./icons/fylo-landing-page-img.png"
-                alt="space website"
-              />
-              <div class="layer">
-                <h3>View</h3>
-              </div>
-            </div>
-          </a>
-        </div>
+        
+           
 
-        <div v-motion
-        :initial="{opacity: 0, y: -100}"
-        :visible="{opacity: 1, y: 0}"
-        :delay="500" class="proj">
-          <h1>Todo App</h1>
-          <a
-            href="https://abula28.github.io/Todo-App/"
-            target="_blank"
-          >
-            <div class="projects-img">
-              <img
-                src="./icons/todo-list-img.png"
-                alt="space website"
-              />
-              <div class="layer">
-                <h3>View</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div v-motion
-        :initial="{opacity: 0, y: 100}"
-        :visible="{opacity: 1, y: 0}"
-        :delay="700" class="proj">
-          <h1>Advice Generator</h1>
-          <a
-            href="https://abula28.github.io/Advice-Generator/"
-            target="_blank"
-          >
+        
             <div class="projects-img">
               <img
                 src="./icons/advice-generator-img.png"
@@ -93,16 +25,28 @@
               </div>
             </div>
           </a>
-        </div>
+        </div> -->
 
-
+        <Projects v-for="(item, index) in this.projectsData"  :key="index" :data="item" />
       </div>
     </div>
   </section>
 </template>
 
-
 <script>
+import Projects from "../components/Projects.vue";
+import proData from "../projects.json";
+
+export default {
+  components: {
+    Projects,
+  },
+  data() {
+    return {
+      projectsData: proData,
+    };
+  },
+};
 </script>
 
 <style lang="scss">
@@ -147,7 +91,7 @@
 
     h1 {
       font-weight: 700;
-      font-size: 28px;
+      font-size: 25px;
       line-height: 35px;
       color: #ffffff;
     }
