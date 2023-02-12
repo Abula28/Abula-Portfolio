@@ -33,6 +33,11 @@
         "title": "Click Game",
         "href": "https://abula28.github.io/Click-Game/",
         "img": "/imgs/click-game.png"
+    },
+    {
+        "title": "Type Game",
+        "href": "https://abula28.github.io/Type-Game/",
+        "img": "public/imgs/type-game.png"
     }
     
 ]
