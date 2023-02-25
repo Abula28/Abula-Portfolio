@@ -21,14 +21,13 @@
 @media (max-width: 1300px) {
   .head {
     padding: 50px 0px 50px 25px;
-    
+
     h1 {
       font-size: 35px;
     }
   }
   .main-inf {
     flex-direction: column-reverse;
-    
 
     img {
       width: 391px;
@@ -75,7 +74,7 @@
 
   .lang-side {
     width: 100%;
-    
+
     .about {
       .text {
         width: 99%;
@@ -83,8 +82,7 @@
     }
   }
 
-  .skill-side{
-    
+  .skill-side {
     margin: 0px 0px 0px 5%;
   }
 
@@ -106,62 +104,54 @@
   }
 }
 
-
-@media(max-width: 550px){
-
-
-
-    .projects {
-        .proj{
-            h1{
-                font-size: 20px;
-            }
-        }
+@media (max-width: 550px) {
+  .projects {
+    .proj {
+      h1 {
+        font-size: 20px;
+      }
     }
+  }
 
-    .home {
-        padding: 100px 0px 0px 0px;
+  .home {
+    padding: 100px 0px 0px 0px;
+  }
+
+  .projects {
+    padding: 0px;
+  }
+
+  .projects-img {
+    width: 100%;
+  }
+
+  .main-inf {
+    img {
+      width: 291px;
+      height: 291px;
     }
-
-    .projects{
-        padding: 0px;
-    }
-
-    .projects-img{
-        width: 100%;
-        
-    }
-    
-    .main-inf{
-        img{
-            width: 291px;
-            height: 291px;
-        }
-    }
-
-
+  }
 }
 
-@media(max-width: 480px){
-
-    .projects {
-        .proj{
-            .projects-img{
-                width: 250px;
-                height: 100px;
-            }
-        }
+@media (max-width: 480px) {
+  .projects {
+    .proj {
+      .projects-img {
+        width: 250px;
+        height: 100px;
+      }
     }
+  }
 
-    .indicator{
-        width: 100%;
+  .indicator {
+    width: 100%;
+  }
+
+  .contact-icons {
+    flex-direction: column;
+
+    i {
+      font-size: 25px;
     }
-
-    .contact-icons{
-        flex-direction: column;
-
-        i {
-            font-size: 25px;
-          }
-    }
+  }
 }

@@ -1,5 +1,10 @@
 [
     {
+        "title": "Animated Apple Techs",
+        "href": "https://animated-apple-techs.netlify.app/",
+        "img": "/imgs/animated-apple.png"
+    },
+    {
         "title": "Space Tourism Website",
         "href": "https://abula28.github.io/Space-Tourism-Website/",
         "img": "/imgs/space-tourism-website-img.png"
